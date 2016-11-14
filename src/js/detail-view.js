@@ -13,7 +13,9 @@
         $('#details')
             .html('')
             .append(
-                '<p>'+contact.name.first+'</p>'
+                '<p>'+ 'Name: ' + contact.name.first + '</p><p>' +'Date of Birth: '
+                + contact.dob + '</p>' + '<p>' + 'Email: ' + contact.email + '</p>'
+                + '<p>' + 'gender: ' + contact.gender + '</p>'
             );
     }
 
